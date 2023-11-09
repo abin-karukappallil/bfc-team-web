@@ -16,12 +16,13 @@
     margin-left: 31px
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
    .navbar ul {
     margin-left: 100px;
     margin-right: 40px;
     font-size: 25px;
     margin-top: -43px;
+    gap: 20px;
 }
    .logo {
     height: 50px;
