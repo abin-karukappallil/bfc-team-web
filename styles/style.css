@@ -1,0 +1,32 @@
+
+.navbar ul {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 40px;
+    font-size: 36px;
+    margin-left: 183px;
+    color: white;
+    margin-top: -64px;
+}
+.logo{
+    height: 79px;
+    width: 78px;
+    margin-top: 34px;
+    margin-left: 31px
+}
+
+@media (max-width: 768px) {
+   .navbar ul {
+    margin-left: 100px;
+    margin-right: 40px;
+    font-size: 25px;
+    margin-top: -43px;
+}
+   .logo {
+    height: 50px;
+    width: 51px;
+    margin-left: 11px;
+    margin-top: 34px;
+   }
+}
