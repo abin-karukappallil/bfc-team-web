@@ -1,4 +1,3 @@
-
 .navbar ul {
     display: flex;
     justify-content: flex-start;
@@ -9,25 +8,112 @@
     color: white;
     margin-top: -64px;
 }
-.logo{
+
+body {
+    overflow: hidden;
+    background: linear-gradient(248deg, rgba(2, 17, 31, 0.20) 69.97%, rgba(106, 139, 170, 0.00) 101.06%);
+}
+
+.logo {
     height: 79px;
     width: 78px;
     margin-top: 34px;
     margin-left: 31px
 }
 
-@media (max-width: 800px) {
-   .navbar ul {
+@media (width <= 800px) {
+    body {
+        overflow: hidden;
+    }
+    .navbar ul {
+        margin-left: 100px;
+        margin-right: 10px;
+        font-size: 19px;
+        margin-top: -43px;
+        gap: 20px;
+    }
+
+    .logo {
+        height: 50px;
+        width: 51px;
+        margin-left: 11px;
+        margin-top: 34px;
+    }
+}
+
+.text-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+    margin-right: 44px;
+    margin-left: 590px;
+    color: white;
+    overflow: hidden;
+    gap: 45px;
+
+}
+
+.text-container p {
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+.text-container h1 {
+    color: #FFF;
+    font-size: 94px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    animation:
+        typing 3.5s steps(40, end),
+        blink-caret .75s step-end infinite;
+    /* margin-bottom: 65px; */
+}
+
+section .land-main img {
+    position: absolute;
+    top: 290px;
+    transform: rotate(-1.604deg);
+}
+
+.wall {
+    width: 70%;
+    height: 801.035px;
+    border-radius: 107px;
+    background: rgba(102, 104, 137, 0.31);
+    margin-left: 99px;
+    margin-right: 97px;
+    margin-top: 36px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    color: white;
+    font-size: 21px;
+}
+
+.wall img {
+    width: 450px;
+    height: 227px;
+    flex-shrink: 0;
     margin-left: 100px;
-    margin-right: 40px;
-    font-size: 25px;
-    margin-top: -43px;
-    gap: 20px;
 }
-   .logo {
-    height: 50px;
-    width: 51px;
-    margin-left: 11px;
-    margin-top: 34px;
-   }
+.wall im1 {
+   display: flex;
 }
+.wall img2 {
+   display: flex;
+}
+.wall img3 {
+    flex: 33.33%;
+}
+.wall img4 {
+    flex: 33.33%;
+}
+
+
