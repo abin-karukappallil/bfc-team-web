@@ -27,9 +27,9 @@ body {
     }
 
     .navbar ul {
-        margin-left: 100px;
+        margin-left: 80px;
         margin-right: 10px;
-        font-size: 19px;
+        font-size: 13px;
         margin-top: -43px;
         gap: 10px;
     }
@@ -54,7 +54,7 @@ body {
 
     .text-container p {
         margin-left: 20px !important;
-        font-size: 20px !important;
+        font-size: 12px !important;
     }
 
     .che3 {
