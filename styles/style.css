@@ -22,16 +22,15 @@ body {
 }
 
 @media (width <=800px) {
-    body {
-        overflow: hidden;
-    }
-
+   
     .navbar ul {
         margin-left: 80px;
         margin-right: 10px;
         font-size: 13px;
         margin-top: -43px;
-        gap: 10px;
+        gap: 30px;
+        position: fixed;
+        overflow: hidden;
     }
 
     .logo {
@@ -39,12 +38,14 @@ body {
         width: 51px;
         margin-left: 11px;
         margin-top: 34px;
+        overflow: hidden !important;
     }
 
     .text-container {
         margin-top: 300px !important;
         margin-left: 20px !important;
         font-size: 19px !important;
+        overflow-x: hidden !important;
     }
 
     .text-container h1 {
@@ -55,11 +56,12 @@ body {
     .text-container p {
         margin-left: 20px !important;
         font-size: 12px !important;
+        overflow-y: scr;
     }
 
     .che3 {
         position: absolute !important;
-        top: 70px !important;
+        top: 93px !important;
         height: 30% !important;
         right: 76px !important;
     }
