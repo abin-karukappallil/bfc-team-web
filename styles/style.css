@@ -21,10 +21,11 @@ body {
     margin-left: 31px
 }
 
-@media (width <= 800px) {
+@media (width <=800px) {
     body {
         overflow: hidden;
     }
+
     .navbar ul {
         margin-left: 100px;
         margin-right: 10px;
@@ -39,6 +40,29 @@ body {
         margin-left: 11px;
         margin-top: 34px;
     }
+
+    .text-container {
+        margin-top: 300px !important;
+        margin-left: 20px !important;
+        font-size: 19px !important;
+    }
+
+    .text-container h1 {
+        margin-left: 20px !important;
+        font-size: 39px !important;
+    }
+
+    .text-container p {
+        margin-left: 20px !important;
+        font-size: 20px !important;
+    }
+
+    .che3 {
+        position: absolute !important;
+        top: 70px !important;
+        height: 30% !important;
+        right: 76px !important;
+    }
 }
 
 .text-container {
@@ -50,7 +74,6 @@ body {
     margin-right: 44px;
     margin-left: 590px;
     color: white;
-    overflow: hidden;
     gap: 45px;
 
 }
@@ -61,7 +84,10 @@ body {
     font-weight: 700;
 
 }
-
+.che3 {
+    position: absolute;
+    top: 380px;
+}
 .text-container h1 {
     color: #FFF;
     font-size: 94px;
@@ -103,17 +129,19 @@ section .land-main img {
     flex-shrink: 0;
     margin-left: 100px;
 }
+
 .wall im1 {
-   display: flex;
+    display: flex;
 }
+
 .wall img2 {
-   display: flex;
+    display: flex;
 }
+
 .wall img3 {
     flex: 33.33%;
 }
+
 .wall img4 {
     flex: 33.33%;
 }
-
-
