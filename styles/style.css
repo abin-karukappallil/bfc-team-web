@@ -10,7 +10,6 @@
 }
 
 body {
-    overflow: hidden;
     background: linear-gradient(248deg, rgba(2, 17, 31, 0.20) 69.97%, rgba(106, 139, 170, 0.00) 101.06%);
 }
 
@@ -26,16 +25,14 @@ body {
     .navbar ul {
         margin-left: 80px;
         margin-right: 10px;
-        font-size: 13px;
+        font-size: 14px;
         margin-top: -43px;
         gap: 30px;
-        position: fixed;
-        overflow: hidden;
     }
 
     .logo {
-        height: 50px;
-        width: 51px;
+        height: 40px;
+        width: 41px;
         margin-left: 11px;
         margin-top: 34px;
         overflow: hidden !important;
@@ -45,7 +42,6 @@ body {
         margin-top: 300px !important;
         margin-left: 20px !important;
         font-size: 19px !important;
-        overflow-x: hidden !important;
     }
 
     .text-container h1 {
@@ -147,3 +143,22 @@ section .land-main img {
 .wall img4 {
     flex: 33.33%;
 }
+@media (min-width: 801px) and (max-width: 1345px) {
+    .text-container {
+        margin-left: 360px !important;
+    }
+    .text-container p{
+        font-size: 15px !important;
+    }
+    .text-container h1 {
+        font-size: 45px !important;
+    }
+  }
+  @media (width <=372px) {
+    .text-container{
+        font-size: 20px !important;
+    }
+    .text-container h1{
+        font-size: 20px !important;
+    }
+  }
