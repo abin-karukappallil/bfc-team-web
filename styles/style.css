@@ -70,7 +70,6 @@ body {
     }
     .wall {
         width: fit-content;
-        height: fit-content;
         margin-right: 5%;
 
     }
@@ -79,10 +78,12 @@ body {
         margin-left: 5% !important;
         margin-right: 5% !important;
         margin-bottom: 50px !important;
+        border-radius: 50px !important;
 
     }
     .wall p {
         font-size: 12px !important;
+        margin-top: 2% !important;
     }
     .wall img {
         width: 290px !important;
