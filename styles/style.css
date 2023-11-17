@@ -180,13 +180,19 @@ section .land-main img {
 
 .content-container {
     padding: 2%;
-    margin-left: 2%;
+    margin-left: 7%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+
 }
 
 .onlyres {
     margin: 1%;
     display: flex;
     flex-direction: row;
+    position: relative;
 }
 
 .date-box {
@@ -201,18 +207,76 @@ section .land-main img {
 .matchwall img {
     width: 54px;
     height: 54px;
+    margin-left: 1.5%;
 }
+
 .matchwall .onlyres .team-box {
     margin-left: 0.7%;
+    background: #5675A5;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    width: fit-content;
+    height: fit-content;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    padding: 0.5%;
+    font-weight: 700;
+    font-size: 26px;
+
+
 }
+
+.matchwall .onlyres h1 {
+    font-size: 62px;
+    font-weight: 800;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-left: 3.5%;
+    margin-right: 1.5%;
+    position: absolute;
+    top: -28px;
+    left: 191px;
+
+}
+
 .matchwall {
     border-radius: 71px;
     background: rgba(97, 136, 193, 0.62);
     width: 60%;
-    height: 80%;
+    height: fit-content;
     margin: 3%;
     color: #FFF;
+    position: relative;
 
+}
+
+.vs {
+    height: auto !important;
+    width: auto !important;
+
+}
+
+.ride-side {
+    display: flex;
+
+}
+
+.left-right-ok {
+    display: flex;
+    gap: 20%;
+}
+
+.h111 h1 {
+    left: -46px !important;
+
+}
+
+.matchhead {
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
 }
 
 @media (min-width: 801px) and (max-width: 1345px) {
@@ -237,3 +301,4 @@ section .land-main img {
             font-size: 20px !important;
         }
     }
+}
